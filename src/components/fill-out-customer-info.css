@@ -1,0 +1,30 @@
+.inputForm {
+    width: 40%;
+    color: white;
+    font-size: 30px;
+    overflow: hidden;
+    background-color: #1abc9c;
+    padding: 5px 20px 12px 20px;
+  }
+
+input[type=text] {
+    width: 40%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: white;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 20px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    border-radius: 3px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
